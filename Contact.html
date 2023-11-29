@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        body{
+            background-image: url(image/12\ Best\ Bakeries\ In\ London\ To\ Visit.jpeg);
+        }
+
+        section{
+            padding: 40px 15%;
+        }
+
+        .contact{
+            background: black;
+            height: 100%;
+            width: 100%;
+            min-height: 100vh;
+            display: grid;
+            grid-template-columns: repeat(2, 2fr);
+            align-items: center;
+            grid-gap: 6rem;
+        }
+
+        .contact-form h1{
+            font-size: 80px;
+            color: white;
+            margin-bottom: 20px;
+        }
+        span{
+            color: bisque;
+        }
+
+        .contact-form p{
+            color: white;
+            letter-spacing: 1px;
+            line-height: 26px;
+            font-size: 1.1rem;
+            margin-bottom: 3.8rem;
+        }
+
+        .contact-form form {
+            position: relative;
+        }
+        .contact-form form input, form textarea{
+            width: 100%;
+            padding: 17px;
+            border: none;
+            outline: none;
+            background: #191919;
+            color: 1.1rem;
+            margin-bottom: 0.7rem;
+            border-radius: 10px;
+        }
+        .contact-form textarea{
+            resize: none;
+            height: 200px;
+        }
+        .contact-form .btn{
+           background: beige;
+           font-size: 1.1rem;
+           letter-spacing: 1px;
+           text-transform: uppercase;
+           font-weight: 600;
+           border: 2px solid transparent;
+           border-radius: 10px;
+           width: 220px;
+           transition: ease .20s;
+           cursor: pointer;
+        }
+        .contact-form form .btn:hover{
+            border: 2px solid beige;
+            background: transparent;
+            transform: scale(1.1);
+        }
+
+        
+    </style>
+</head>
+<body>
+    <section class="Contact">
+        <div class="contact-form">
+            <h1>Contact <span>Us</span></h1>
+            <p>I am avaiable for freelance work. Contact me via phone : 085959141352 or email : felisyahfeiderica@students.IgnatiusGlobal.sch.id</p>
+
+            <form action="">
+                <input type="" placeholder="Your Name" required>
+                <input type="email" id="" placeholder="E-mail" required>
+                <input type="" placeholder="Write a Subject" required>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Your Massage" required>
+
+
+                </textarea>
+                <input type="submit" name="" value="Submit" class="btn">
+            </form>
+        </div>
+        
+        </div>
+    </section>
+</body>
+</html>
